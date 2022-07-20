@@ -41,8 +41,13 @@ main{
     background-color: red;
     padding: 16px 30px;
     gap: 10px;
+    transition: transform 2s;
+    position: absolute;
 }
 
+.banner-title a:hover{
+    transform: rotate(360deg);
+}
 
 .banner-image{
     width: 50%;
