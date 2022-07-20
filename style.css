@@ -273,6 +273,9 @@ footer .icon{
     .match-detail{
         grid-template-columns: repeat(1, 1fr);
     }
+    .match{
+        text-align: center;
+    }
     .footer-menu{
         font-weight: 400;
         font-size: 14px;
