@@ -216,6 +216,9 @@ footer .icon{
         text-align: center;
         color: white;      
     }
+    .banner-title a{
+        position: relative;
+    }
     .banner-image{
         width: 30%;
 
@@ -260,6 +263,7 @@ footer .icon{
 
 @media screen and (max-width: 690px){
     
+    
     main{
         margin: 40px 20px 24px 20px;
     }
@@ -279,6 +283,9 @@ footer .icon{
         line-height: 33px;
         line-height: 33px;
         color: white;     
+    }
+    .banner-title a{
+        position: relative;
     }
     .banner-image{
         width: 100%;
