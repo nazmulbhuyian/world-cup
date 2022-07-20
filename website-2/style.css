@@ -9,50 +9,50 @@ body{
          banner section start
                 --------------------*/
 main{
-margin: 50px 139px 130px 140px;
+    margin: 50px 139px 130px 140px;
 }                   
 .top-banner{
-display: flex;
-background: #161616;
-border-radius: 30px;
-margin-bottom: 130px;
+    display: flex;
+    background: #161616;
+    border-radius: 30px;
+    margin-bottom: 130px;
 }
 .banner-title{
-width: 50%;
-margin: 111px 24px 111px 106px;
+    width: 50%;
+    margin: 111px 24px 111px 106px;
 }
 .banner-title h1{
-font-weight: 700;
-font-size: 70px;
-line-height: 80px;
-color: white;
-margin-bottom: -5px;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    color: white;
+    margin-bottom: -5px;
 }
 .banner-title p{
-font-weight: 200;
-font-size: 15px;
-color: white;
-line-height: 26px;
-margin-bottom: 45px;
+    font-weight: 200;
+    font-size: 15px;
+    color: white;
+    line-height: 26px;
+    margin-bottom: 45px;
 }
 .banner-title a{
-text-decoration: none;
-color: white;
-background-color: red;
-padding: 16px 30px;
-gap: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 16px 30px;
+    gap: 10px;
 }
 
 
 .banner-image{
-width: 50%;
-margin-top: 35px;
-margin-right: 79px;
+    width: 50%;
+    margin-top: 35px;
+    margin-right: 79px;
 }
 .banner-image img{
-width: 581px;
-height: 630px;
-width: 100%;
+    width: 581px;
+    height: 630px;
+    width: 100%;
 }
 
 /* banner section end */
@@ -84,61 +84,44 @@ margin-top: 30px;
 font-weight: 500;
 font-size: 15px;
 }
-form .blog{
+form .upcoming-match{
 background-color: red;
 color: white;
 }
 
+
+.match-detail{
+    width: 80%;
+    margin-left: 25px;
+}
 .match{
 border: 1px solid lightgray;
 border-radius: 10px;
 }
-.match-detail{
-width: 40%;
-margin-left: 25px;
-}
 .match-image{
-width: 312px;
-height: 175px;
-border-radius: 10px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 35px;
 }
-.image-detail .transfer{
-margin-top: 20px;
-padding: 8px 18px;
-font-weight: 500;
-font-size: 16px;
+.match-image img{
+    width: 90px;
+    height: 50px;
 }
-.image-title{
-font-weight: 600;
-font-size: 18px;
-color: #161616;
+.match-image h1{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
+
 .image-detail{
-margin-left: 30px;
-margin-bottom: -10px;
+    margin-left: 55px;
+    font-weight: 500;
+    margin-bottom: 50px;
 }
-.time-massege{
-display: flex;
-margin-bottom: 15px;
-margin-left: 30px;
-}
-.time{
-display: flex;
-align-items: center;
-}
-.time-duration{
-margin-left: 10px;
-color: lightgray;
-}
-.massege{
-display: flex;
-align-items: center;
-margin-left: 30px;
-}
-.massege span{
-margin-left: 10px;
-color: lightgray;
-}
+
+
 .match-detail{
 display: grid;
 grid-template-columns: repeat(3, 1fr);
