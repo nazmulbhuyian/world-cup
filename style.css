@@ -180,7 +180,7 @@ footer hr{
 /* footer end */
 
 
-@media screen and (max-width: 687px){
+@media screen and (max-width: 400px){
     main{
         margin: 40px 20px 24px 20px;
     }
