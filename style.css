@@ -1,0 +1,180 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital@1&family=Poppins:wght@400;500&family=Splash&display=swap');
+
+    body{
+        font-family: 'Poppins', sans-serif;
+        background-color: #f3f1ff;
+    }
+    /*---------
+             banner section start
+                    --------------------*/
+main{
+    margin: 50px 139px 130px 140px;
+}                   
+.top-banner{
+    display: flex;
+    background: #161616;
+    border-radius: 30px;
+    margin-bottom: 130px;
+}
+.banner-title{
+    width: 50%;
+    margin: 111px 24px 111px 106px;
+}
+.banner-title h1{
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    color: white;
+    margin-bottom: -5px;
+}
+.banner-title p{
+    font-weight: 200;
+    font-size: 15px;
+    color: white;
+    line-height: 26px;
+    margin-bottom: 45px;
+}
+.banner-title a{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 16px 30px;
+    gap: 10px;
+}
+
+
+.banner-image{
+    width: 50%;
+    margin-top: 35px;
+    margin-right: 79px;
+}
+.banner-image img{
+    width: 581px;
+    height: 630px;
+    width: 100%;
+}
+
+/* banner section end */
+
+     /*------------
+         match banner start 
+                 ----------------*/
+.match-banner{
+    display: flex;
+}
+.match-form{
+    width: 20%;
+    height: 300px;
+    background: #161616;
+    border-radius: 10px;
+}
+.match-form form{
+    margin: 30px;
+}
+form a{
+    display: block;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 15px 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 15px;
+}
+form .blog{
+    background-color: red;
+    color: white;
+}
+
+.match{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.match-detail{
+    width: 40%;
+    margin-left: 25px;
+}
+.match-image{
+    width: 312px;
+    height: 175px;
+    border-radius: 10px;
+}
+.image-detail .transfer{
+    margin-top: 20px;
+    padding: 8px 18px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.image-title{
+    font-weight: 600;
+    font-size: 18px;
+    color: #161616;
+}
+.image-detail{
+    margin-left: 30px;
+    margin-bottom: -10px;
+}
+.time-massege{
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+.time{
+    display: flex;
+    align-items: center;
+}
+.time-duration{
+    margin-left: 10px;
+    color: lightgray;
+}
+.massege{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.massege span{
+    margin-left: 10px;
+    color: lightgray;
+}
+.match-detail{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+        /*-----------
+                match banner end 
+                        ------------------*/
+
+        /*--------
+            footer start
+                    --------------- */
+
+footer{
+    text-align: center;
+    padding: 100px;
+    background-color: #161616;
+}
+footer h1{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: white;
+}
+footer hr{
+    border: .5px solid gray;
+}
+.footer-menu a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: #B9B9B9;
+    font-weight: 500;
+}
+.footer-menu{
+    margin-top: 50px;
+}
+
+/* footer end */
