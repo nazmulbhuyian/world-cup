@@ -178,3 +178,50 @@ footer hr{
 }
 
 /* footer end */
+
+
+@media screen and (max-width: 687px){
+    main{
+        margin: 40px 20px 24px 20px;
+    }
+    .top-banner{
+        display: block;
+    }
+    .banner-title{
+        width: 100%;
+        margin: 38px auto;
+        text-align: center;
+    }
+    .match-banner{
+        display: block;
+    }
+    .banner-title h1{
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 33px;
+        text-align: center;
+        color: white;
+        
+    }
+    .banner-image{
+        margin: 0 auto;
+    }
+    .banner-image img{
+        width: 200px;
+        height: 300px;
+    }
+    .match-form{
+        width: 100%;
+        background-color: transparent;
+        color: #161616;
+    }
+    .match-detail{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    footer a{
+        display: block;
+        padding: 5px;
+        margin-top: 10px;
+    }
+
+}
